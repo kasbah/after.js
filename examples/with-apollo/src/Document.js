@@ -22,13 +22,11 @@ export default class Document extends React.Component {
     return (
       <html {...htmlAttrs}>
         <head>
-          <meta httpEquiv="X-UA-Compatible" content="IE=edge" />
-          <meta charSet="utf-8" />
-          <title>After with Apollo !</title>
-          <meta name="viewport" content="width=device-width, initial-scale=1" />
           <meta charSet="utf-8" />
           <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no" />
           <meta name="theme-color" content="#000000" />
+          <meta httpEquiv="X-UA-Compatible" content="IE=edge" />
+          <title>After with Apollo !</title>
           {helmet.title.toComponent()}
           {helmet.meta.toComponent()}
           {helmet.link.toComponent()}
