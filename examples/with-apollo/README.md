@@ -22,9 +22,9 @@ app.use(cors());
 ...
 ```
 
-`yarn start`
+`PORT=64895 yarn start`
 
-this will start a local server on `http://localhost:8080` ; port may change, update it in `createApolloClient.js`
+this will start a local server on `http://localhost:64895` ; port may change, update it in `createApolloClient.js`
 
 # start example
 
