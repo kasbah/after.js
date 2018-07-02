@@ -23,7 +23,7 @@ function About(props) {
   return (
     <div>
       <div>
-        {film.title} has be directed by {film.director}
+        {film.title} is directed by {film.director}
       </div>
       <Link to="/">Home -></Link>
     </div>
